@@ -23,10 +23,6 @@
   font-weight: bold;
 }
 
-body{
-  height: 100vh;
-}
-
 .modal {
     display: none;
     position: fixed;
@@ -80,8 +76,8 @@ body{
     to {top:0; opacity:1}
   }
 
-html { 
-    background: url(./images/background-image.png) no-repeat center center fixed; 
+body {
+    background: url('./images/background-image.png') no-repeat center center fixed; 
     background-size: cover;
 }
 
