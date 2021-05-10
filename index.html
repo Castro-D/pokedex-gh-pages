@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Pokedex</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap-grid.min.css">
+</head>
+<body>
+    <h1 class='title'>Pokedex</h1>
+    <div class="container mt-5">
+        <div class="row mb-4">
+        <div class="col">
+            <div class='frame'></div>
+        </div>
+        <div class="col">
+            <div class='frame'></div>
+        </div>
+        <div class="col">
+            <div class='frame'></div>
+        </div>
+        <div class="col">
+            <div class='frame'></div>
+        </div>
+        <div class="col">
+            <div class='frame'></div>
+        </div>
+        </div>
+        <div class="row mb-4">
+            <div class="col">
+                <div class='frame'></div>
+            </div>
+            <div class="col">
+                <div class='frame'></div>
+            </div>
+            <div class="col">
+                <div class='frame'></div>
+            </div>
+            <div class="col">
+                <div class='frame'></div>
+            </div>
+            <div class="col">
+                <div class='frame'></div>
+            </div>
+        </div>
+        <div class="row mb-4">
+            <div class="col">
+                <div class='frame'></div>
+            </div>
+            <div class="col">
+                <div class='frame'></div>
+            </div>
+            <div class="col">
+                <div class='frame'></div>
+            </div>
+            <div class="col">
+                <div class='frame'></div>
+            </div>
+            <div class="col">
+                <div class='frame'></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class='frame'></div>
+            </div>
+            <div class="col">
+                <div class='frame'></div>
+            </div>
+            <div class="col">
+                <div class='frame'></div>
+            </div>
+            <div class="col">
+                <div class='frame'></div>
+            </div>
+            <div class="col">
+                <div class='frame'></div>
+            </div>
+        </div>
+        <div class="pagenumbers mt-3" id="pagination">
+            
+        </div>
+    </div>
+    <div id='my-modal' class='modal'>
+        <div class='modal-content'>
+            <div class='modal-header'>
+                <h2 id='pokemon-name'></h2>
+                
+            </div>
+            <div class='modal-body'>
+                <span class="close">&times;</span>
+                <img id='pokemon-image' class='poke-image' src='' alt="Image from a pokemon">
+                <p id='pokemon-height'></p>
+                <p id='pokemon-type'></p>
+                <p id='pokemon-weight'></p>
+                <p id='pokemon-abilities'>Abilities: <strong id='abilities-text'></strong></p>
+            </div>
+        </div>
+    </div>
+    <script src="./src/main.js"></script>
+</body>
+</html>
